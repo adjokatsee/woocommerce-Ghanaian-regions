@@ -32,18 +32,21 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 function wc_ng_counties_add_counties ( $states ) {
 
 	$states ['GH' ] = array (
-		'KUM' => 'Kumasi' ,
-		'SUN' => 'Sunyani' ,
-		'KAS' => 'Kasoa' ,
-		'TAK' => 'Takoradi' ,
-		'ACC' => 'Accra' ,
-		'CC' => 'Cape coast' ,
-		'TAM' => 'Tamale' ,
-		'TEM' => 'Tema' ,
-		'HO' => 'Ho' ,
-		'SEK' => 'Sekondi' ,
-		'UPE' => 'Upper east' ,
-		'UPW' => 'Upper west' ,
+		'OTI' => 'Oti Region' ,
+        	'BNE' => 'Bono East Region' ,
+		'AHO' => 'Ahafo Region' ,
+		'BON' => 'Bono Region' ,
+		'NHE' => 'North East Region' ,
+		'SVH' => 'Savannah Region' ,
+		'WSN' => 'Western North Region' ,
+		'VOT' => 'Volta Region' ,
+		'GRA' => 'Greater Accra Region' ,
+		'EST' => 'Eastern Region' ,
+		'ASH' => 'Ashanti Region' ,
+		'CNT' => 'Central Region' ,
+		'NTH' => 'Northern Region' ,
+        	'UPE' => 'Upper East Region' ,
+		'UPW' => 'Upper West Region' ,
 		);
 	return $states;
 	
