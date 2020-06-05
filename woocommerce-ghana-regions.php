@@ -29,27 +29,29 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * GNU General Public License for more details.
  * **********************************************************************
  */
-function wc_ng_counties_add_counties ( $states ) {
+function wc_ng_counties_add_counties ( $city) {
 
-	$states ['GH' ] = array (
-		'OTI' => 'Oti Region' ,
-        	'BNE' => 'Bono East Region' ,
-		'AHO' => 'Ahafo Region' ,
-		'BON' => 'Bono Region' ,
-		'NHE' => 'North East Region' ,
-		'SVH' => 'Savannah Region' ,
-		'WSN' => 'Western North Region' ,
-		'VOT' => 'Volta Region' ,
-		'GRA' => 'Greater Accra Region' ,
-		'EST' => 'Eastern Region' ,
-		'ASH' => 'Ashanti Region' ,
-		'CNT' => 'Central Region' ,
-		'NTH' => 'Northern Region' ,
-        	'UPE' => 'Upper East Region' ,
-		'UPW' => 'Upper West Region' ,
+	$city ['GH' ] = array (
+		'ACC' => 'Accra' ,
+        	'HO' => 'Ho' ,
+		'DMG' => 'Damongo' ,
+		'TAK' => 'Takoradi' ,
+		'CC' => 'Cape Coast' ,
+		'WA' => 'Wa' ,
+		'BOL' => 'BOlgatanga' ,
+		'KUM' => 'Kumasi' ,
+		'DAM' => 'Dambai' ,
+		'KOF' => 'Koforidua' ,
+		'TAM' => 'Tamale' ,
+		'SWO' => 'Sefwi Wiawso' ,
+		'SUN' => 'Sunyani' ,
+        	'TCH' => 'Techiman' ,
+		'GOS' => 'Goaso' ,
+		'NAL' => 'Nalerigu' ,
+		
 		);
-	return $states;
+	return $city;
 	
 }
 
-add_filter( 'woocommerce_states' , 'wc_ng_counties_add_counties'  );
+add_filter( 'woocommerce_city' , 'wc_ng_cities_add_towns'  );
