@@ -44,6 +44,7 @@ function wc_ng_counties_add_counties ( $states ) {
 		'EST' => 'Eastern Region' ,
 		'ASH' => 'Ashanti Region' ,
 		'CNT' => 'Central Region' ,
+		'WST' => 'Western Region' ,
 		'NTH' => 'Northern Region' ,
         	'UPE' => 'Upper East Region' ,
 		'UPW' => 'Upper West Region' ,
