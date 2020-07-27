@@ -9,7 +9,7 @@ License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 */
 /**
- * Copyright (c) 2017 Ezekiel Sebastine. All rights reserved.
+ * Copyright (c) 2017 Ezekiel Sebastine and updated by Edem Adjokatcher. All rights reserved.
  *
  * Released under the GPL license
  * http://www.opensource.org/licenses/gpl-license.php
@@ -42,6 +42,7 @@ function wc_ng_counties_add_counties ( $states ) {
 		'VOT' => 'Volta Region' ,
 		'GRA' => 'Greater Accra Region' ,
 		'EST' => 'Eastern Region' ,
+		'WST' => 'Western Region' ,
 		'ASH' => 'Ashanti Region' ,
 		'CNT' => 'Central Region' ,
 		'NTH' => 'Northern Region' ,
